@@ -1,0 +1,285 @@
+/* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f8f9fc;
+    color: #26334d;
+    line-height: 1.6;
+}
+
+
+/* Navigation Bar */
+header {
+    background-color: #172b4d;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d4af65;
+}
+
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 90px 10%;
+    min-height: 450px;
+}
+
+.image-placeholder {
+    width: 230px;
+    height: 270px;
+    background-color: #e2e6ed;
+    border: 3px solid #c9a45c;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #172b4d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro {
+    max-width: 550px;
+}
+
+.intro h1 {
+    font-size: 38px;
+    color: #172b4d;
+    margin-bottom: 10px;
+}
+
+.intro h3 {
+    color: #b18a43;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #626d7e;
+}
+
+.intro a {
+    display: inline-block;
+    background-color: #172b4d;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.intro a:hover {
+    background-color: #c9a45c;
+}
+
+
+/* Section General Style */
+section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #172b4d;
+    margin-bottom: 35px;
+}
+
+
+/* Skills Section */
+.skills {
+    padding: 65px 10%;
+    background-color: #ffffff;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    background-color: #f0f2f7;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border-bottom: 3px solid #c9a45c;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    background-color: #e6eaf2;
+}
+
+
+/* Technologies Section */
+.technologies {
+    padding: 65px 10%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+
+th {
+    background-color: #172b4d;
+    color: white;
+    padding: 18px;
+}
+
+td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f0f2f7;
+}
+
+td a {
+    color: #b18a43;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Future Goals Section */
+.future-goals {
+    background-color: #172b4d;
+    padding: 70px 15%;
+    color: white;
+}
+
+.future-goals h2 {
+    color: #d4af65;
+}
+
+.future-goals p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 2;
+    color: #e4e8ef;
+}
+
+
+/* Footer */
+footer {
+    background-color: #101e35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+.profile-photo {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #c9a45c;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+/* Contact Section */
+
+.contact-section {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #172b4d;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #172b4d;
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+    outline: none;
+    border-color: #c9a45c;
+}
+
+.contact-section button {
+    padding: 12px;
+    background-color: #172b4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #c9a45c;
+}
